@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 d/home/user/DSD-F24/simulation/qsim
 vLab2
-Z1 !s110 1726684842
+Z1 !s110 1726685909
 !i10b 1
 !s100 >kTg?U4QVc`W4`EW<iOb12
 I>0lig0lQo_di_:RF@jzn>3
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-w1726684842
+w1726685909
 8Lab2.vo
 FLab2.vo
 L0 32
@@ -23,7 +23,7 @@ Z3 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1726684842.538826
+!s108 1726685909.614734
 !s107 Lab2.vo|
 !s90 -work|work|Lab2.vo|
 !i113 1
@@ -36,7 +36,7 @@ R1
 ICPZMEcf1fcCVl>Jh29HDl0
 R2
 R0
-Z5 w1726684840
+Z5 w1726685907
 Z6 8Waveform.vwf.vt
 Z7 FWaveform.vwf.vt
 L0 60
@@ -44,7 +44,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1726684842.557202
+Z8 !s108 1726685909.633533
 Z9 !s107 Waveform.vwf.vt|
 Z10 !s90 -work|work|Waveform.vwf.vt|
 !i113 1

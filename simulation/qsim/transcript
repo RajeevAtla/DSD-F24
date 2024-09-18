@@ -1,16 +1,16 @@
 # do Lab2.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:40:42 on Sep 18,2024
+# Start time: 14:58:29 on Sep 18,2024
 # vlog -work work Lab2.vo 
 # -- Compiling module Lab2
 # 
 # Top level modules:
 # 	Lab2
-# End time: 14:40:42 on Sep 18,2024, Elapsed time: 0:00:00
+# End time: 14:58:29 on Sep 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 14:40:42 on Sep 18,2024
+# Start time: 14:58:29 on Sep 18,2024
 # vlog -work work Waveform.vwf.vt 
 # -- Compiling module Lab2_vlg_sample_tst
 # -- Compiling module Lab2_vlg_check_tst
@@ -18,10 +18,10 @@
 # 
 # Top level modules:
 # 	Lab2_vlg_vec_tst
-# End time: 14:40:42 on Sep 18,2024, Elapsed time: 0:00:00
+# End time: 14:58:29 on Sep 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -c -do "Lab2.do" 
-# Start time: 14:40:42 on Sep 18,2024
+# Start time: 14:58:29 on Sep 18,2024
 # Loading work.Lab2_vlg_vec_tst
 # Loading work.Lab2
 # Loading cycloneive_ver.cycloneive_io_obuf
@@ -40,5 +40,5 @@
 # Simulation passed !
 # ** Note: $finish    : Waveform.vwf.vt(151)
 #    Time: 1 us  Iteration: 0  Instance: /Lab2_vlg_vec_tst/tb_out
-# End time: 14:40:42 on Sep 18,2024, Elapsed time: 0:00:00
+# End time: 14:58:29 on Sep 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 7
