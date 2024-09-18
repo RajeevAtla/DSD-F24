@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Lab2
-Wed Sep 18 14:36:06 2024
+Wed Sep 18 15:27:35 2024
 Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Web Edition
 
 
@@ -169,13 +169,13 @@ No paths to report.
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 ; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; clock ; Rise       ; clock         ;
 ; -1.285 ; 1.000        ; 2.285          ; Min Period       ; clock ; Rise       ; inst          ;
-; 0.268  ; 0.456        ; 0.188          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
-; 0.322  ; 0.542        ; 0.220          ; High Pulse Width ; clock ; Rise       ; inst          ;
+; 0.261  ; 0.449        ; 0.188          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
+; 0.330  ; 0.550        ; 0.220          ; High Pulse Width ; clock ; Rise       ; inst          ;
 ; 0.394  ; 0.394        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|o ;
-; 0.420  ; 0.420        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
+; 0.414  ; 0.414        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|i ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|i ;
-; 0.577  ; 0.577        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
+; 0.586  ; 0.586        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
 ; 0.606  ; 0.606        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|o ;
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 
@@ -185,7 +185,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; in        ; clock      ; 1.961 ; 2.323 ; Rise       ; clock           ;
+; in        ; clock      ; 2.126 ; 2.471 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -194,7 +194,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; in        ; clock      ; -1.555 ; -1.909 ; Rise       ; clock           ;
+; in        ; clock      ; -1.731 ; -2.054 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -203,7 +203,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 5.931 ; 5.889 ; Rise       ; clock           ;
+; out       ; clock      ; 9.013 ; 9.141 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -212,7 +212,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 5.730 ; 5.688 ; Rise       ; clock           ;
+; out       ; clock      ; 8.695 ; 8.816 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -268,14 +268,14 @@ No paths to report.
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 ; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; clock ; Rise       ; clock         ;
 ; -1.285 ; 1.000        ; 2.285          ; Min Period       ; clock ; Rise       ; inst          ;
-; 0.267  ; 0.485        ; 0.218          ; High Pulse Width ; clock ; Rise       ; inst          ;
-; 0.325  ; 0.511        ; 0.186          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
-; 0.415  ; 0.415        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|o ;
-; 0.473  ; 0.473        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
+; 0.276  ; 0.494        ; 0.218          ; High Pulse Width ; clock ; Rise       ; inst          ;
+; 0.318  ; 0.504        ; 0.186          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
+; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|o ;
+; 0.466  ; 0.466        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|i ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|i ;
-; 0.525  ; 0.525        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
-; 0.585  ; 0.585        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|o ;
+; 0.534  ; 0.534        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
+; 0.584  ; 0.584        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|o ;
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 
 
@@ -284,7 +284,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; in        ; clock      ; 1.637 ; 1.902 ; Rise       ; clock           ;
+; in        ; clock      ; 1.791 ; 2.026 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -293,7 +293,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; in        ; clock      ; -1.279 ; -1.536 ; Rise       ; clock           ;
+; in        ; clock      ; -1.439 ; -1.655 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -302,7 +302,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 5.401 ; 5.350 ; Rise       ; clock           ;
+; out       ; clock      ; 8.321 ; 8.258 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -311,7 +311,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 5.203 ; 5.153 ; Rise       ; clock           ;
+; out       ; clock      ; 8.010 ; 7.949 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -350,7 +350,7 @@ No paths to report.
 +-------+--------+---------------------------------+
 ; Clock ; Slack  ; End Point TNS                   ;
 +-------+--------+---------------------------------+
-; clock ; -3.000 ; -4.102                          ;
+; clock ; -3.000 ; -4.087                          ;
 +-------+--------+---------------------------------+
 
 
@@ -361,14 +361,14 @@ No paths to report.
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 ; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; clock ; Rise       ; clock         ;
 ; -1.000 ; 1.000        ; 2.000          ; Min Period       ; clock ; Rise       ; inst          ;
-; -0.102 ; 0.082        ; 0.184          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
-; 0.078  ; 0.078        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
-; 0.121  ; 0.121        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|o ;
+; -0.087 ; 0.097        ; 0.184          ; Low Pulse Width  ; clock ; Rise       ; inst          ;
+; 0.093  ; 0.093        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; inst|clk      ;
+; 0.120  ; 0.120        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|o ;
 ; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|i ;
 ; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; clock ; Rise       ; clock~input|i ;
-; 0.698  ; 0.914        ; 0.216          ; High Pulse Width ; clock ; Rise       ; inst          ;
-; 0.879  ; 0.879        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|o ;
-; 0.920  ; 0.920        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
+; 0.685  ; 0.901        ; 0.216          ; High Pulse Width ; clock ; Rise       ; inst          ;
+; 0.880  ; 0.880        ; 0.000          ; High Pulse Width ; clock ; Rise       ; clock~input|o ;
+; 0.907  ; 0.907        ; 0.000          ; High Pulse Width ; clock ; Rise       ; inst|clk      ;
 +--------+--------------+----------------+------------------+-------+------------+---------------+
 
 
@@ -377,7 +377,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; in        ; clock      ; 1.068 ; 1.629 ; Rise       ; clock           ;
+; in        ; clock      ; 1.155 ; 1.731 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -386,7 +386,7 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; in        ; clock      ; -0.873 ; -1.427 ; Rise       ; clock           ;
+; in        ; clock      ; -0.962 ; -1.524 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -395,7 +395,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 3.040 ; 3.081 ; Rise       ; clock           ;
+; out       ; clock      ; 4.624 ; 4.932 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -404,7 +404,7 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 2.941 ; 2.980 ; Rise       ; clock           ;
+; out       ; clock      ; 4.463 ; 4.759 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -431,7 +431,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; in        ; clock      ; 1.961 ; 2.323 ; Rise       ; clock           ;
+; in        ; clock      ; 2.126 ; 2.471 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -440,7 +440,7 @@ No synchronizer chains to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; in        ; clock      ; -0.873 ; -1.427 ; Rise       ; clock           ;
+; in        ; clock      ; -0.962 ; -1.524 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -449,7 +449,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 5.931 ; 5.889 ; Rise       ; clock           ;
+; out       ; clock      ; 9.013 ; 9.141 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -458,7 +458,7 @@ No synchronizer chains to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; out       ; clock      ; 2.941 ; 2.980 ; Rise       ; clock           ;
+; out       ; clock      ; 4.463 ; 4.759 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -557,7 +557,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 15.0.2 Build 153 07/15/2015 SJ Web Edition
-    Info: Processing started: Wed Sep 18 14:36:05 2024
+    Info: Processing started: Wed Sep 18 15:27:34 2024
 Info: Command: quartus_sta Lab2 -c Lab2
 Info: qsta_default_script.tcl version: #11
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -608,12 +608,12 @@ Critical Warning (332148): Timing requirements not met
 Info (332146): Worst-case minimum pulse width slack is -3.000
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.000              -4.102 clock 
+    Info (332119):    -3.000              -4.087 clock 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 939 megabytes
-    Info: Processing ended: Wed Sep 18 14:36:06 2024
+    Info: Peak virtual memory: 937 megabytes
+    Info: Processing ended: Wed Sep 18 15:27:35 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

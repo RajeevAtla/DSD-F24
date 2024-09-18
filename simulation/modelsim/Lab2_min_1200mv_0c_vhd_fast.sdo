@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "Lab2")
-  (DATE "09/18/2024 14:36:08")
+  (DATE "09/18/2024 15:27:37")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 15.0.2 Build 153 07/15/2015 SJ Web Edition")
@@ -42,8 +42,8 @@
     (INSTANCE \\out\~output\\)
     (DELAY
       (ABSOLUTE
-        (PORT i (249:249:249) (287:287:287))
-        (IOPATH i o (1622:1622:1622) (1625:1625:1625))
+        (PORT i (1950:1950:1950) (2255:2255:2255))
+        (IOPATH i o (1632:1632:1632) (1635:1635:1635))
       )
     )
   )
@@ -52,7 +52,7 @@
     (INSTANCE \\clock\~input\\)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (318:318:318) (697:697:697))
+        (IOPATH i o (338:338:338) (718:718:718))
       )
     )
   )
@@ -61,7 +61,17 @@
     (INSTANCE \\in\~input\\)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (328:328:328) (707:707:707))
+        (IOPATH i o (338:338:338) (718:718:718))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_lcell_comb")
+    (INSTANCE \\inst\~feeder\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (1618:1618:1618) (1806:1806:1806))
+        (IOPATH datad combout (68:68:68) (63:63:63))
       )
     )
   )
@@ -70,13 +80,13 @@
     (INSTANCE inst)
     (DELAY
       (ABSOLUTE
-        (PORT clk (746:746:746) (785:785:785))
-        (PORT asdata (1767:1767:1767) (1949:1949:1949))
+        (PORT clk (599:599:599) (622:622:622))
+        (PORT d (37:37:37) (50:50:50))
         (IOPATH (posedge clk) q (105:105:105) (105:105:105))
       )
     )
     (TIMINGCHECK
-      (HOLD asdata (posedge clk) (84:84:84))
+      (HOLD d (posedge clk) (84:84:84))
     )
   )
 )

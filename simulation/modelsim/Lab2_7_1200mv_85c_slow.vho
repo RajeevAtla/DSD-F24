@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 15.0.2 Build 153 07/15/2015 SJ Web Edition"
 
--- DATE "09/18/2024 14:36:08"
+-- DATE "09/18/2024 15:27:37"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -43,9 +43,9 @@ ENTITY 	Lab2 IS
 END Lab2;
 
 -- Design Ports Information
--- out	=>  Location: PIN_B8,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- in	=>  Location: PIN_C7,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- clock	=>  Location: PIN_D8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- out	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- in	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- clock	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF Lab2 IS
@@ -64,6 +64,7 @@ SIGNAL \ww_in\ : std_logic;
 SIGNAL \out~output_o\ : std_logic;
 SIGNAL \clock~input_o\ : std_logic;
 SIGNAL \in~input_o\ : std_logic;
+SIGNAL \inst~feeder_combout\ : std_logic;
 SIGNAL \inst~q\ : std_logic;
 
 BEGIN
@@ -75,7 +76,7 @@ ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 
--- Location: IOOBUF_X16_Y73_N2
+-- Location: IOOBUF_X69_Y73_N16
 \out~output\ : cycloneive_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -87,7 +88,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \out~output_o\);
 
--- Location: IOIBUF_X16_Y73_N15
+-- Location: IOIBUF_X115_Y14_N1
 \clock~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -98,7 +99,7 @@ PORT MAP (
 	i => ww_clock,
 	o => \clock~input_o\);
 
--- Location: IOIBUF_X16_Y73_N22
+-- Location: IOIBUF_X115_Y17_N1
 \in~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -109,7 +110,21 @@ PORT MAP (
 	i => \ww_in\,
 	o => \in~input_o\);
 
--- Location: FF_X16_Y72_N1
+-- Location: LCCOMB_X114_Y14_N16
+\inst~feeder\ : cycloneive_lcell_comb
+-- Equation(s):
+-- \inst~feeder_combout\ = \in~input_o\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "1111111100000000",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	datad => \in~input_o\,
+	combout => \inst~feeder_combout\);
+
+-- Location: FF_X114_Y14_N17
 inst : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -118,8 +133,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~input_o\,
-	asdata => \in~input_o\,
-	sload => VCC,
+	d => \inst~feeder_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst~q\);
