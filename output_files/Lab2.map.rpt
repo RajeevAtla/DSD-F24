@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab2
-Wed Sep 18 14:19:41 2024
+Wed Sep 18 14:35:48 2024
 Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Web Edition
 
 
@@ -43,7 +43,7 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Sep 18 14:19:41 2024      ;
+; Analysis & Synthesis Status        ; Successful - Wed Sep 18 14:35:48 2024      ;
 ; Quartus II 64-Bit Version          ; 15.0.2 Build 153 07/15/2015 SJ Web Edition ;
 ; Revision Name                      ; Lab2                                       ;
 ; Top-level Entity Name              ; Lab2                                       ;
@@ -253,7 +253,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.2 Build 153 07/15/2015 SJ Web Edition
-    Info: Processing started: Wed Sep 18 14:19:33 2024
+    Info: Processing started: Wed Sep 18 14:35:40 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab2 -c Lab2
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file Lab2.bdf
@@ -268,8 +268,8 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21061): Implemented 1 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 970 megabytes
-    Info: Processing ended: Wed Sep 18 14:19:41 2024
+    Info: Processing ended: Wed Sep 18 14:35:48 2024
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Total CPU time (on all processors): 00:00:17
 
 

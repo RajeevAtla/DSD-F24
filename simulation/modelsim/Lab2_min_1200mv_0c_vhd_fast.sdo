@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "Lab2")
-  (DATE "09/18/2024 14:20:02")
+  (DATE "09/18/2024 14:36:08")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 15.0.2 Build 153 07/15/2015 SJ Web Edition")
@@ -39,7 +39,7 @@
 
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\output\~output\\)
+    (INSTANCE \\out\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (249:249:249) (287:287:287))
@@ -58,7 +58,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE \\input\~input\\)
+    (INSTANCE \\in\~input\\)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (328:328:328) (707:707:707))

@@ -9,23 +9,86 @@ z2
 cModel Technology
 Z0 d/home/user/DSD-F24/simulation/qsim
 vLab2
-!s110 1726683952
+Z1 !s110 1726684842
 !i10b 1
-!s100 cRB>?DzaS4BIfggT2`B@c2
-IlD_>YSzPB41ai5koQlUzz1
-V`JN@9S9cnhjKRR_L]QIcM3
+!s100 >kTg?U4QVc`W4`EW<iOb12
+I>0lig0lQo_di_:RF@jzn>3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-w1726683951
+w1726684842
 8Lab2.vo
 FLab2.vo
 L0 32
-OV;L;10.3d;59
+Z3 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1726683952.355658
+!s108 1726684842.538826
 !s107 Lab2.vo|
 !s90 -work|work|Lab2.vo|
 !i113 1
-o-work work
+Z4 o-work work
 n@lab2
+vLab2_vlg_check_tst
+R1
+!i10b 1
+!s100 eAfd5WVj5Ob1Chl`cAi1E1
+ICPZMEcf1fcCVl>Jh29HDl0
+R2
+R0
+Z5 w1726684840
+Z6 8Waveform.vwf.vt
+Z7 FWaveform.vwf.vt
+L0 60
+R3
+r1
+!s85 0
+31
+Z8 !s108 1726684842.557202
+Z9 !s107 Waveform.vwf.vt|
+Z10 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+n@lab2_vlg_check_tst
+vLab2_vlg_sample_tst
+R1
+!i10b 1
+!s100 YC:?GRi_^SfbS55da7RSN2
+Iba5mF4O3Z`QY^M@?BHzPz1
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@lab2_vlg_sample_tst
+vLab2_vlg_vec_tst
+R1
+!i10b 1
+!s100 LATm^gC?6EI]iOMM2fUcn1
+IzIf]eX31QH3hRHB=JgQ2A1
+R2
+R0
+R5
+R6
+R7
+L0 155
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@lab2_vlg_vec_tst
