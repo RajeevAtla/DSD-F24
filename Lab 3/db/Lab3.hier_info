@@ -1,0 +1,31 @@
+|Lab3
+outputSg <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+inputD1 => gdfx_temp0.IN0
+inputD2 => gdfx_temp0.IN1
+inputD3 => inst7.IN1
+inputD3 => inst5.IN0
+inputD3 => inst14.IN1
+inputD3 => inst16.IN0
+inputD3 => inst23.IN3
+inputD3 => inst24.IN1
+inputD3 => inst31.IN1
+inputD3 => inst32.IN0
+inputD3 => inst36.IN2
+inputD3 => inst40.IN1
+inputD0 => inst7.IN2
+inputD0 => inst10.IN1
+inputD0 => inst29.IN0
+inputD0 => inst12.IN1
+inputD0 => inst2.IN0
+inputD0 => inst20.IN0
+inputD0 => inst23.IN0
+inputD0 => inst26.IN0
+inputD0 => inst39.IN0
+outputSf <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+outputSe <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+outputSd <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+outputSc <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+outputSb <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+outputSa <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+
+
